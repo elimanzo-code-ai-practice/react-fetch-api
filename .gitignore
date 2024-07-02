@@ -6,6 +6,7 @@ localhost.pem
 
 # dependencies
 /node_modules
+/igdb-proxy/node_modules
 npm-debug.log*
 
 # testing

@@ -42,7 +42,7 @@ function RenderList(props: Omit<Props, 'headerItem'>) {
       <>
         {props.list.map((item) => (
           <Grid item xs={12} key={String(item)}>
-            {String(item)}
+            {JSON.stringify(item, null, 2)}
           </Grid>
         ))}
       </>

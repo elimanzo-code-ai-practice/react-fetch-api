@@ -13,7 +13,7 @@ export default function HomePage() {
       </Grid>
       <Grid item xs={12}>
         <Button component={Link} to={connections.list} variant='contained' color='primary'>
-          Create Connections
+          See Video Games!
         </Button>
       </Grid>
     </Grid>

@@ -23,7 +23,7 @@ export default function Login() {
   return (
     <Box>
       <PageHeader
-        title='React Gold'
+        title='React Game API Fetch'
         subtitle='Built with ts(x), MUI, React-Router, Auth0 & React Query'
       />
       <Box mt='3%' mb='10px' />

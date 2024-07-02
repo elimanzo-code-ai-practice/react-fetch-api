@@ -20,7 +20,7 @@ type TAllItems = {
 
 export const allItems: TAllItems = {
   connectionsList: {
-    name: 'Connections',
+    name: 'Games',
     Icon: SettingsInputComponent,
     spaUrl: spaUrl.connections.list,
     createLink: '/do-it-yourself',
