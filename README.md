@@ -1,6 +1,14 @@
-# Boiler-Plate React
+### Prompt
 
-This repo has been [forked](https://github.com/Midnight-Coder/react-gold-tsx/) from Midnight-Coder, all credits goes to them.
+Create a single-page application (SPA) using React that fetches and displays data from a public API. Choose an API that provides a list of items, such as movies, books, or products. 
+
+Your application must include the following features: 
+
+1. A search bar to filter items based on user input. 
+2. A paginated list of items displaying relevant details (e.g., title, image, description). 
+3. A loading spinner displayed while data is being fetched. 
+4. Error handling for cases where the API request fails. 
+5. Use CSS or any CSS framework of your choice to style the application and ensure it is responsive.
 
 ### Stack: React, Material UI { using ts(x) }
 
@@ -19,22 +27,3 @@ This repo has been [forked](https://github.com/Midnight-Coder/react-gold-tsx/) f
 4. `npm i`
 5. `npm run start`
 6. Add Auth0 keys to `.env.development.local` file
-
-### Make it our own
-
-1. Name your app. Then update names in 
-   1. index.html 
-   2. package.json
-   3. manifest.json
-   4. `Login.tsx`
-2. Get your logos and icons. Update logos in
-   1. public/
-   2. Favicon in index.html 
-   3. manifest.json
-   4. src/assets/branding.png: Image for Login/Sign Up Page
-   5. src/assets/logo.png: Image for nav bar (full width)
-   6. src/assets/logoSm.png: Image for collapsed nav bar (32x32)
-   7. src/assets/missing-page.jpeg: Image for HTTP 404
-3. Footer: Update `BrandingBorder.tsx`
-4. Colors, Fonts, spacing etc. - Update `theme.ts`
-5. Add Auth0 keys to `.env` and `.env.development.local` files
