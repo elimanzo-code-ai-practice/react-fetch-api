@@ -1,0 +1,36 @@
+name: Build and Publish Image
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build & Publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Use Node.js 18.10.0
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.10.0
+          cache: 'npm'
+
+      - name: Install Node Dependencies
+        run: npm install
+
+      - name: Run Tests
+        run: npm run ci
+
+      - name: Set Version Tag
+        run: echo "TAG=v$(cat package.json | grep '"version":' | awk -F'"' '{print $4; exit;}')" >> $GITHUB_ENV
+      
+      - name: Create Tag
+        run: git tag $TAG
+      
+      - name: Push Tag
+        run: git push origin $TAG
