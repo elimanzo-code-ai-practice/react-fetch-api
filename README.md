@@ -12,7 +12,7 @@ Your application must include the following features:
 
 ### Feedback / Response
 
-[![Video](https://via.placeholder.com/150)](https://i.gyazo.com/46a7d382717be894ba863688bc85d6aa.mp4)
+![Video](https://i.gyazo.com/46a7d382717be894ba863688bc85d6aa.mp4)
 
 1. Total time took 6hrs
 2. Issues encountered
