@@ -10,6 +10,18 @@ Your application must include the following features:
 4. Error handling for cases where the API request fails. 
 5. Use CSS or any CSS framework of your choice to style the application and ensure it is responsive.
 
+### Feedback / Response
+
+[![Video](https://via.placeholder.com/150)](https://i.gyazo.com/46a7d382717be894ba863688bc85d6aa.mp4)
+
+1. Total time took 6hrs
+2. Issues encountered
+    - Getting the boiler-plate going
+    - CORS was a big issue fetching from IGDB
+    - Lint issues
+    - Learning to paginate Data
+3. I'm still trying to figure out how to delay searching as the user is typing. Debouncing only queue's up and fires off all the searches after the delay.
+
 ### Stack: React, Material UI { using ts(x) }
 
 1. React app bootstrapped with CRA

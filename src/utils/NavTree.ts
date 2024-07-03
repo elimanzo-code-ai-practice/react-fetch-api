@@ -23,7 +23,6 @@ export const allItems: TAllItems = {
     name: 'Games',
     Icon: SettingsInputComponent,
     spaUrl: spaUrl.connections.list,
-    createLink: '/do-it-yourself',
   },
   landingPage: {
     name: 'Landing Page',
